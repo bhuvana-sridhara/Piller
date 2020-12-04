@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piller</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id = "intro" class="intro">
+      <div class="container-fluid">
+
+        <!-- Nav Bar -->
+  
+        <nav class="navbar navbar-expand-lg navbar-light">
+  
+          <a class="navbar-brand" href="#intro">
+            <img src="../data/piller.png" width="50" height="50" alt="Piller">
+          </a>
+  
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+  
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#requirement">Requiremnet Analysis</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sketches">Sketches</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#evaluation">Formative Evaluation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#demo">Demo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+            </ul>
+  
+          </div>
+        </nav>
+  
+  
+        <!-- Title -->
+  
+        <div class="row">
+  
+          <div class="col-lg-6">
+            <h1 class="big-heading">Every Medicine Matters</h1>
+            <button type="button" class="btn btn-dark btn-lg download-button"><a class="remove" href="https://github.com/IrshadBadarpura/Piller" target="_blank"><i class="fab fa-github"></i> Source Code</a> </button>
+            <button type="button" class="btn btn-outline-light btn-lg download-button"><a class="remove-white" href="#demo"><i class="far fa-play-circle"></i> Demo</a></button>
+          </div>
+  
+          <div class="col-lg-6">
+            <img class="title-image" src="../data/pillerscreen.jpg" alt="iphone-mockup">
+          </div>
+  
+        </div>
+  
+      </div>  
+</div>
+<section class="about" id="about"> 
+    <h1 class = "head">Piller</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+</section>
+
+<section class="requirement" id="requirement">
+    <h1 class="head">Requirements Analysis</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn collapsed length" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <i class="fas fa-angle-down"></i></i> Functional Requirements
+              </button>
+            </h5>
+          </div>
+      
+          <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              <ul>
+                  <li>The users should be able to input their medication dosage, schedule and purpose.</li>
+                  <li>The users should also be able to use the camera to scan the name of the medicine and input it without having to type it.
+                </li>
+                <li>The users should be able to view/update their medication dosage, schedule and purpose.</li>
+                <li>The users should be able to check their upcoming and previous medications on the dashboard</li>
+                <li>The users should be able to receive audio notifications for their set medication schedules </li>
+                <li>The primary users should be able to add a secondary user’s contact details.</li>
+                <li>The primary users should be able to communicate with their secondary user using prefilled text messages</li>
+                <li>The secondary user should be notified when the primary user misses or forgets to take the medication</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn collapsed length" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <i class="fas fa-angle-down"></i> Non-functional Requirements
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              <ul>
+                  <li>Privacy: The primary user’s data should remain private and only be visible to them and their caretakers
+                    </li>
+                    <li>Availability:
+                        The application should be available all the time as the user will be dependent on it to receive notifications about when to take the medicines
+                        </li>
+                    <li>Accessibility:
+                        The interface should be designed such that it is accessible both by the primary(older adults) and secondary users (caretakers) (Font sizes, colors etc)
+                        </li>
+                    <li>Simplicity and Minimalism:
+                        The interface should be easy to use and understand, keeping in mind the age of primary users
+                        </li>
+                    <li>Control and Flexibility:
+                        The user should be given complete access to switch on/off the notifications as per their need
+                        </li>
+                    <li>The alarm should be clearly audible and should not be dismissed until the user takes an action- take/skip/snooze</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+<section  id="sketches" class="sketches">
+  <h1 class="head">Sketches</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</section>
+
+<section id="evaluation" class="evaluation">
+  <h1 class="head"> Formative Evaluation</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  <h2 class="head">Task Cards</h2>
+  <div class="row task">
+    <div class="col-lg-6">
+      <h3>Task1: Add Medication</h3>
+      <p>You, John, are 60 years old and under treatment for type 2 diabetes. Add a reminder for Insulin, 100ml to be taken at 9pm every day. You take one dose of insulin per day and you have 2 vials of insulin left.
+      </p>
+      <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn collapsed length" data-toggle="collapse" data-target="#task1" aria-expanded="false" aria-controls="task1">
+              <i class="fas fa-angle-down"></i> Observations
+            </button>
+          </h5>
+        </div>
+        <div id="task1" class="collapse" aria-labelledby="task1" data-parent="#accordion">
+          <div class="card-body">
+            <p>Task1: Both users were able to complete the task successfully. 
+              One user spent the most time on the schedule tapping away on the time selector. <em> [ This was never our final design. We want to implement a clock interface for them to pick their time but we couldn’t implement this design in the prototype as of now. ] </em>
+              <br>
+              One user used the progress bar buttons to go back to a section through exploration.
+              Both users used the ‘Every day’ check box in the schedule section which selected all the days of the week.
+              Both users didn’t notice the camera functionality that could be used to scan to input the name of the medication.
+              </p>
+            </div>
+          </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="col-lg-6">
+      <img class="evaluation-image" src="../data/task1.gif" alt="iphone-mockup">
+    </div>
+  </div>
+
+  <div class="row task">
+    <div class="col-lg-6">
+      <h3>Task2: Change the dosage for a medicine</h3>
+      <p>
+        You misremembered! The dosage was supposed to be 150ml instead of the 100 ml you just entered. Go back and change the dosage of insulin to 150 ml.        
+      </p>
+      <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn collapsed length" data-toggle="collapse" data-target="#task2" aria-expanded="false" aria-controls="task2">
+              <i class="fas fa-angle-down"></i> Observations
+            </button>
+          </h5>
+        </div>
+        <div id="task2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            Task 2: Both users were able to complete the task successfully. 
+            </div>
+          </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="col-lg-6">
+      <img class="evaluation-image" src="../data/task2.gif" alt="iphone-mockup">
+    </div>
+  </div>
+
+  <div class="row task">
+    <div class="col-lg-6">
+      <h3>Task 3: Send a text to the caretaker</h3>
+      <p>
+        John, you have only 2 vials of crocin left! Contact your caretaker, Lisa and let her know you’re running low on Crocin.
+      </p>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn collapsed length" data-toggle="collapse" data-target="#task3" aria-expanded="false" aria-controls="task3">
+              <i class="fas fa-angle-down"></i> Observations
+            </button>
+          </h5>
+        </div>
+        <div id="task3" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            <p>Task3: Both users took some time to figure out the messaging section was hidden under Mr Piller. <br>
+            They both expected there to be a messaging tab in the bottom panel. But once they found the Mr Piller functionality, they had no issues navigating through categories to select the message they wanted.
+            </p>
+            </div>
+          </div>
+          </div>
+    </div>
+
+    <div class="col-lg-6">
+      <img class="evaluation-image" src="../data/task3.gif" alt="iphone-mockup">
+    </div>
+  </div>
+  <br>
+  <br>
+  <p><h3>For detailed report please click <a href="https://docs.google.com/document/d/19oKIO8ZwcvWCYjLRxsKbFIrca1htBVKyR0HGOe6_S9I/edit?usp=sharing">here</a></h3></p>
+</section>
+
+<section id="demo" class="demo">
+  <h1 class="head"> Demo</h1>
+  <iframe width="100%" height="100%" src="https://drive.google.com/file/d/1Qo26amNEr_wlpiC0KLPwmqhsgHBmrwmn/preview"></iframe>
+</section>
+
+<section class="team" id="team">
+  <h1 class="head"> Team</h1>
+  <div >
+
+    <div class="row">
+      <div class="team-box col-lg-4">
+        <img class="set-image" src="../data/irshad.png" alt="irshad">
+        <h3 class="team-title">Irshad Badarpura</h3>
+        <button type="button" class="btn btn-outline-primary btn-lg download-button"><a class="remove-white" href="https://www.linkedin.com/in/irshadbadarpura/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></button>
+      </div>
+
+      <div class="team-box col-lg-4">
+        <img class="set-image" src="../data/bhuvana.png" alt="bhuvana">
+        <h3 class="team-title">Bhuvana Sridhara</h3>
+        <button type="button" class="btn btn-outline-primary btn-lg download-button"><a class="remove-white" href="https://www.linkedin.com/in/bhuvanasridhara/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></button>
+      </div>
+
+      <div class="team-box col-lg-4">
+        <img class="set-image" src="../data/shreya.png" alt="shreya">
+        <h3 class="team-title">Shreya Shrivastava</h3>
+        <button type="button" class="btn btn-outline-primary btn-lg download-button"><a class="remove-white" href="https://www.linkedin.com/in/sshrivastava16/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></button>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+</body>
+</html>

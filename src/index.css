@@ -1,0 +1,147 @@
+.nav-container {
+    color: black;
+    left: 0;
+    top: 0;
+    right:0;
+    padding: 7% 15%;
+    position: absolute;
+    text-align: left;
+  }
+
+.intro{
+      background-color: pink;
+      width: 100%;
+      height: 800px;
+  }
+
+.container-fluid{
+    padding: 7% 15%;
+  }
+
+.download-button {
+    margin: 5% 3% 5% 0;
+  }
+
+.big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin-top: 5%;
+}
+  
+
+/* .intro image{
+    margin-top: 50%;
+    width: 50%;
+    height: 100%;
+    display: inline;
+} */
+
+.title-image {
+    margin-top: 5%;
+    width: 50%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+  }
+#title .container-fluid {
+padding: 3% 15% 7%;
+}
+.about{
+    padding: 7% 15%;
+}
+.head{
+    text-align: center;
+}
+
+.about p{
+    text-align: justify;
+}
+
+.requirement{
+    text-align: justify;
+    background-color: pink;
+    padding: 7% 15%;
+}
+
+.remove{
+    color: white;
+    text-decoration: none;
+}
+.remove:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.remove-white{
+    color:black;
+    text-decoration: none;
+}
+
+.remove-white:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.length{
+    width:100%;
+    text-align: left;
+}
+
+.sketches{
+    padding: 7% 15%;
+}
+
+.sketches p{
+    text-align: justify;
+}
+
+.evaluation{
+    padding: 7% 15%;
+    background-color: pink;
+}
+.evaluation p{
+    text-align: justify;
+}
+
+.demo{
+    padding: 7% 15%;
+    height: 800px;
+}
+.demo iframe{
+    margin-top: 2%;
+}
+
+.team{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.team-box {
+    padding: 4.5%;
+  }
+
+.team-title {
+    font-size: 1.5rem;
+  }
+
+.set-image{
+    width: 100%;
+    height: 80%;
+}
+
+.evaluation-image {
+    margin-top: 5%;
+    width: 50%;
+    /* transform: rotate(25deg); */
+    /* position: absolute; */
+    /* right: 20%; */
+    margin-left: 30%;
+  }
+
+.task{
+    margin-top:5%;
+}
+p{
+    text-align: justify;
+}

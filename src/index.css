@@ -1,3 +1,12 @@
+html{
+    scroll-behavior: smooth;
+    }
+.toggler{
+    position: fixed;
+    top:90%;
+    right:5%;
+    z-index: 1;
+    }
 .nav-container {
     color: black;
     left: 0;
@@ -52,6 +61,7 @@ padding: 3% 15% 7%;
 }
 .head{
     text-align: center;
+    margin: 2%;
 }
 
 .about p{
@@ -115,6 +125,7 @@ padding: 3% 15% 7%;
 .team{
     padding: 7% 15%;
     text-align: center;
+    background-color: pink;
 }
 
 .team-box {
@@ -145,3 +156,17 @@ padding: 3% 15% 7%;
 p{
     text-align: justify;
 }
+
+.design{
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 20%;
+}
+
+.foot {
+    margin: 20px 10px;
+  }
+  #footer {
+    padding:7% 15%;
+    text-align: center;
+  }

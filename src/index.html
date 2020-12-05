@@ -15,6 +15,9 @@
 </head>
 
 <body>
+  <div class="toggler">
+    <a class="btn btn-dark" href="#intro"><i class="fas fa-arrow-up"></i></a>
+  </div>
     <div id = "intro" class="intro">
       <div class="container-fluid">
 
@@ -62,7 +65,8 @@
         <div class="row">
   
           <div class="col-lg-6">
-            <h1 class="big-heading">Every Medicine Matters</h1>
+            <h1 class="big-heading">Piller.</h1>
+            <h3>Never miss a Pill.</h3>
             <button type="button" class="btn btn-dark btn-lg download-button"><a class="remove" href="https://github.com/IrshadBadarpura/Piller" target="_blank"><i class="fab fa-github"></i> Source Code</a> </button>
             <button type="button" class="btn btn-outline-light btn-lg download-button"><a class="remove-white" href="#demo"><i class="far fa-play-circle"></i> Demo</a></button>
           </div>
@@ -77,12 +81,22 @@
 </div>
 <section class="about" id="about"> 
     <h1 class = "head">Piller</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+    <p> The pandemic has raised many questions. One such question is how to provide older adults a way to keep track of their pills
+      without the help of their caretakers. The answer: <strong>Piller</strong>. Piller is a <em>user friendly mobile application to remind
+      older adults to take their medicine on time</em>. The primary users of this application are older adults, who are 60+ and who often forget to take their medication.
+      The secondary users are caretaker of the older adults. The goal of the application is to make sure an older adult takes the right medication on time while having autonomy at home.
+    </p>
+    <p>For detailed Project Proposal report click <a href="">here</a></p>
 </section>
 
 <section class="requirement" id="requirement">
     <h1 class="head">Requirements Analysis</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Requirement analysis is the first step towards creating a useful application. It gives an opportunity to talk and understand with the actual users of the system and what their requirements are.
+      For this process we conducted interviews with our primary(Older adults) and secondary(Caretakers) users. The aim of the interview was to find out how they manage their medications - dosage, schedule and timing.
+      We were curious to know the problems they faced while doing this. We were also curious to know if the user had used or thought of using technology - like pill management apps or automatic pill boxes to solve some of the problems they faced. We wanted to find out what the users wanted as a service and also how they would respond to an app like Piller. 
+      <br>
+      Based on our interviews we defined the the following Functional and Non-funcational requirements.
+    </p>
     <div id="accordion">
         <div class="card">
           <div class="card-header" id="headingOne">
@@ -140,16 +154,80 @@
           </div>
         </div>
       </div>
+      <br>
+      <p>For detailed Requirement Analysis report click <a href="">here</a></p>
 </section>
 
 <section  id="sketches" class="sketches">
   <h1 class="head">Sketches</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>After the requirement analysis, the next was to design the application. We seleted a total of 4 design challenges. Each concentrating on some of the most important user requirements.
+    To come with the right design, each team member created 10 alternative sketches for each design challenge. Then, from these design sketches the team members, after discussion narrowed down on 
+    three alternatives for each design challenge. This iteractive process helped us <em>get the right designs</em>. 
+  </p>
+  <div>
+    <h2 class="head"> Design Challenges</h2>
+    <div class="row task"> 
+      <div class="col-lg-4">
+        <h3>Challenge 1: Content management</h3> 
+        <p> <strong> Goals:</strong> 
+        Distinguish between the functionalities and the ease to navigate between them. </p>
+      </div>
+      <div class="col-lg-8">
+          <img class="design" src="../data/desgin1.png" alt="design challenge 1">
+      </div>
+    </div>
+    <div class="row task"> 
+      <div class="col-lg-4">
+        <h3>Challenge 2: Entering medication details</h3> 
+        <p> <strong> Goals:</strong> 
+          <ul><li>
+            Add medicines without any mistakes
+          </li>
+          <li>Provide feedback to the user where they are in the system</li>
+          <li>Simple and user friendly interface</li>
+          <li>Ability to correct mistakes easily</li>
+        </ul>
+      </div>
+      <div class="col-lg-8">
+          <img class="design" src="../data/design2.1.png" alt="design challenge 2.1">
+          <img class="design" src="../data/design2.2.png" alt="design challenge 2.2">
+      </div>
+    </div>
+    <div class="row task"> 
+      <div class="col-lg-4">
+        <h3>Challenge 3: Receive notifications for primary users</h3> 
+        <p> <strong> Goals:</strong> 
+          <ul><li>
+            Get notified at the specified time, with an option to skip or snooze
+          </li>
+          <li>Audio notifications</li>  
+        </ul> </p>
+      </div>
+      <div class="col-lg-8">
+          <img class="design" src="../data/design3.png" alt="design challenge 3">
+      </div>
+    </div>
+    <div class="row task"> 
+      <div class="col-lg-4">
+        <h3>Challenge 4: Primary user communicating with Secondary User </h3> 
+        <p> <strong> Goals:</strong> 
+          Primary users should be able to send a bunch of pre-selected messages to the secondary user.
+          </p>
+         
+      </div>
+      <div class="col-lg-8">
+          <img class="design" src="../data/design4.1.png" alt="design challenge 4.1">
+          <img class="design" src="../data/design4.2.png" alt="design challenge 4.2">
+          <img class="design" src="../data/design4.3.png" alt="design challenge 4.3">
+      </div>
+    </div>
+  </div>
+  <p>For detailed Sketches report click <a href="">here</a></p>
 </section>
 
 <section id="evaluation" class="evaluation">
   <h1 class="head"> Formative Evaluation</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p></p>
 
   <h2 class="head">Task Cards</h2>
   <div class="row task">
@@ -250,7 +328,7 @@
 
 <section id="demo" class="demo">
   <h1 class="head"> Demo</h1>
-  <iframe width="100%" height="100%" src="https://drive.google.com/file/d/1Qo26amNEr_wlpiC0KLPwmqhsgHBmrwmn/preview"></iframe>
+  <iframe width="100%" height="90%" src="https://drive.google.com/file/d/1Qo26amNEr_wlpiC0KLPwmqhsgHBmrwmn/preview"></iframe>
 </section>
 
 <section class="team" id="team">
@@ -261,24 +339,28 @@
       <div class="team-box col-lg-4">
         <img class="set-image" src="../data/irshad.png" alt="irshad">
         <h3 class="team-title">Irshad Badarpura</h3>
-        <button type="button" class="btn btn-outline-primary btn-lg download-button"><a class="remove-white" href="https://www.linkedin.com/in/irshadbadarpura/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></button>
+        <button type="button" class="btn btn-outline-dark btn-lg download-button"><a class="remove-white" href="https://www.linkedin.com/in/irshadbadarpura/" target="_blank"><i class="fab fa-linkedin"></i></a></button>
+        <button type="button" class="btn btn-outline-dark btn-lg download-button"><a class="remove-white" href="https://github.com/IrshadBadarpura" target="_blank"><i class="fab fa-github"></i></a></button>
       </div>
 
       <div class="team-box col-lg-4">
         <img class="set-image" src="../data/bhuvana.png" alt="bhuvana">
         <h3 class="team-title">Bhuvana Sridhara</h3>
-        <button type="button" class="btn btn-outline-primary btn-lg download-button"><a class="remove-white" href="https://www.linkedin.com/in/bhuvanasridhara/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></button>
+        <button type="button" class="btn btn-outline-dark btn-lg download-button"><a class="remove-white" href="https://www.linkedin.com/in/bhuvanasridhara/" target="_blank"><i class="fab fa-linkedin"></i></a></button>
+        <button type="button" class="btn btn-outline-dark btn-lg download-button"><a class="remove-white" href="https://github.com/bhuvana-sridhara" target="_blank"><i class="fab fa-github"></i></a></button>
       </div>
 
       <div class="team-box col-lg-4">
         <img class="set-image" src="../data/shreya.png" alt="shreya">
         <h3 class="team-title">Shreya Shrivastava</h3>
-        <button type="button" class="btn btn-outline-primary btn-lg download-button"><a class="remove-white" href="https://www.linkedin.com/in/sshrivastava16/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></button>
+        <button type="button" class="btn btn-outline-dark btn-lg download-button"><a class="remove-white" href="https://www.linkedin.com/in/sshrivastava16/" target="_blank"><i class="fab fa-linkedin"></i></a></button>
+        <button type="button" class="btn btn-outline-dark btn-lg download-button"><a class="remove-white" href="https://github.com/shreya-shrivastava" target="_blank"><i class="fab fa-github"></i></a></button>
       </div>
     </div>
-
-
   </div>
 </section>
+<footer id="footer">
+  <p style="text-align: center;">© Copyright 2020 Irshad Badarpura, Bhuvana Sridhara, Shreya Shrivastava</p>
+</footer>
 </body>
 </html>
